@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfunction()">Try it</button>
+    <p id="hour">
+        <p id="greet">
+  
+        "
+    <script>
+        var a=2
+        var b=6.5
+        var c=null
+        var d
+        document.write(a==b)
+                document.write(" <br>")
+                                document.write(c)
+                    document.write(" <br>")
+                        document.write(d)
+
+                        function myfunction(){
+                            var greeting
+                            var time=new Date() .getHours()
+                            if (time<10){
+                                greeting="good morning"
+
+                            }
+                            else{
+                                greeting="good evening"
+                            }
+                            document.getElementById("hour").innerHTML=time
+                                                        document.getElementById("greet").innerHTML = greeting
+
+                        }
+var text=""
+var i=0
+while (i<10) {
+text+="<br>  the number is " + i
+i++
+    
+}
+document.write(text)
+    </script>
+</body>
+</html>
